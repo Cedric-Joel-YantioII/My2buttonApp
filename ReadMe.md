@@ -1,22 +1,42 @@
 # My2ButtonsApp
 
-## Description
-This is a simple Android application created using Android Studio. The app consists of two activities:
-- **Main Activity**: Displays full name and student ID, along with two buttons: "Start Activity Explicitly" and "Start Activity Implicitly".
-- **Second Activity**: Lists five mobile software engineering challenges and includes a "Main Activity" button to return to the main screen.
+Android App Assignment
+App Description
+This Android application demonstrates the use of explicit and implicit intents to navigate between two activities. The app was developed using Android Studio with Java.
+Features
 
-## Features
-- Explicit intent to start the second activity from the main activity.
-- Implicit intent to start the second activity from the main activity.
-- Navigation back to the main activity from the second activity.
+Main Activity:
 
-## Development Environment
-- **IDE**: Android Studio
-- **Device/Emulator**: Medium Phone API 36.1 (Android 10)
-
-## Instructions
-1. Clone the repository.
-2. Open the project in Android Studio.
-3. Run the app on an emulator or real device with Android 10 or higher.
+Displays "Cedric Joel Yantio II" and student ID "1318956" in separate TextViews
+Contains two buttons:
+"Start Activity Explicitly": Launches SecondActivity using an explicit intent
+"Start Activity Implicitly": Launches SecondActivity using an implicit intent
 
 
+
+
+Second Activity:
+
+Lists five mobile software engineering challenges
+Contains a button to return to Main Activity
+
+
+
+Development Environment
+
+IDE: Android Studio
+Language: Java
+Test Device/Emulator: Pixel 6 API 33 (Emulator)
+Android OS Version: Android 13 (API Level 33)
+
+Setup Instructions
+
+Clone the repository
+Open the project in Android Studio
+Sync the project with Gradle
+Run the app on an emulator or physical device with Android 13 or higher
+
+App Status
+
+Successfully created: Yes
+Successfully run: Yes
