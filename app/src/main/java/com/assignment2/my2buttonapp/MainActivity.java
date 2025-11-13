@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button explicitButton = findViewById(R.id.button);
         Button implicitButton = findViewById(R.id.button4);
+        Button viewImageButton = findViewById(R.id.buttonViewImage);
 
         explicitButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("com.assignment2.my2buttonapp.SECOND_ACTIVITY");
+                startActivity(intent);
+            }
+        });
+
+        viewImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ImageActivity.class);
                 startActivity(intent);
             }
         });
